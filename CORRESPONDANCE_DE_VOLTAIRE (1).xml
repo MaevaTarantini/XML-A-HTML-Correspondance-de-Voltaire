@@ -1,0 +1,558 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LETTRE SECRETES DE Mr. DE VOLTAIRE</title>
+        <author>Voltaire</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>publiées par Mr. L. B.</p>
+        <p>A Geneve</p>
+        <p>M. DCC. LXV.</p>
+        <p>Source numérisée par Gallica</p>
+
+
+        <p>La correspondance de Voltaire est constituée de plus de 15 000 lettres adressées à
+          environ 1 400 correspondants,
+          Elle s’étend sur presque 75 ans, de 1704, quand Voltaire avait 10 ans, à 1778, année de sa
+          mort. La qualité des sources est très inégale et toutes ces lettres forment une masse
+          documentaire de premier ordre qui permet une plus précise connaissance de l’œuvre et de
+          son histoire. C'est aussi le journal d’une vie, la chronique d’un siècle, l'itinéraire de
+          la pensée de Voltaire.
+          Ce recueil de lettres est particulier puisqu'il s'adresse à des amis intimes de Voltaire.
+          Cette correpondance est le fruit d'un XVIIIe siècle bavard, en mouvement d'idées constant
+          mais qui voit aussi le plein développement d'amitiés et de rivalités dans des clans
+          littéraires et philosophiques différents.
+          Voltaire, comme son ennemi Jean-Jacques Rousseau, fait l'objet de multiples critiques. Il
+          se confie à son ami, M. Berger, avec qui il entretient une grande proximité. Cette
+          proximité est de l'ordre de l'amitié mais également des idées.
+          Dans cette correspondance, Voltaire fait le récit de ses conflits avec ses ennemis, ses
+          ambitions (notamment de reconnaissance et de publication) mais aussi d'échange intense
+          d'ouvrages et de textes qui circulent abondamment entre les intellectuels et
+          l'aristocratie française.
+          Ces échanges d'ouvrages nous rappellent le foisonnement intellectuel qui s'est produit dès
+          le début de l'époque moderne, avec le développement de la République des Lettres.</p>
+        <p>
+          Ce projet a pour but principal de rendre compte de la variété des personnes et des lieux
+          évoqués tout au long de la correspondance. Nous pouvons également analyser la quantité de
+          genres littéraires évoqués par son auteur mais aussi quelles catégories sociales font
+          fréquemment l'objet de sujet de correspondance.
+          Dans une édition scientifique comme celle-ci, nous pouvons aussi déceler quels sont les
+          codes épistolaires des intellectuels et les codes épistolaires employés dans le cadre
+          d'une relation amicale proche au XVIIIe siècle (les surnoms...)
+          Nous pourrions utiliser cette base pour former une étude des correspondances et de
+          l'amitié au XVIIIe siècle, mais aussi tenter d'élargir à d'autres correspondances pour
+          procéder à des comparaisons.
+        </p>
+      </publicationStmt>
+      <!-- Métadonnées concernant la source dont est issue l'encodage -->
+      <sourceDesc>
+        <!-- Référence(s) bibliographique(s) désignant la source dont est issu l'encodage -->
+        <biblStruct>
+          <analytic>
+            <!-- Référence bibliograhique pour désigner un texte -->
+            <author>Voltaire</author>
+            <title>Lettres secrètes de Mr. de Voltaire</title>
+          </analytic>
+          <monogr>
+            
+            <author>Voltaire</author>
+            <title>Lettres secrètes de Mr. de Voltaire</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <publisher>[s.n] Genève</publisher>
+              <!-- Date de publication -->
+              <date when="2004-02-28" />
+            </imprint>
+          </monogr>
+          <!-- Pages citées -->
+          <citedRange from="30" to="50" unit="pp" />
+        </biblStruct>
+      </sourceDesc>
+      <!-- <sourceDesc>
+        <bibl>
+          <repository>Bibliothèque Nationale de
+      France</repository>
+        </bibl>
+      </sourceDesc> -->
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Voltaire</persName>
+          <date>1735-1736</date>
+        </correspAction>
+        <correspAction type="received">
+          <address>
+            <persName>M.Berger</persName>
+            <placeName>Genève</placeName>
+          </address>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head>LETTRE SECRETES DE M. DE VOLTAIRE</head>
+      <p>AVERTISSEMENT</p> <!-- peut-etre le mettre dans le body directement-->
+      <p>Ce Recueil de Lettres est<lb /> d'autant plus curieux qu'elles<lb /> ont été écrites à des
+        amis inti-<lb /> mes de l'Auteur, &amp; dans le<lb /> temps où Mr. de Voltaire a don-<lb />
+        né le plus grand nombre d'ou-<lb /> vrages, savoir depuis 1734 jus-<lb /> ques en 1744. On y
+        voit ses<lb /> querelles avec l'<persName>Abbé Desfon-<lb /> taines</persName>, avec <persName>
+        Rousseau</persName>, &amp; le<lb /> commencement de celles avec <persName>le franc de
+        Pompignan</persName> au su-<lb /> jet d'Alzire; quantités d'anecdo-<lb /> tes littéraires,
+        de bons jugemens<lb /> sur divers ouvrages de prose &amp;<lb /> de vers de ces temps-là;
+        &amp; ce<lb /> qui est encore plus précieux, le génie de l'Auteur empreint dans ce commerce
+        libre de l'a-<lb /> mitié.<lb /></p>
+
+      <p>
+        <figure type="illustration">
+          <figDesc>Présence d'un petit décor simple, caractéristique des manuscrits imprimés du
+            XVIIIe siècle.
+            Il indique le passage au chapitre suivant.</figDesc>
+        </figure>
+      </p>
+    </front>
+    <body>
+      <div type="letter" n="1">
+        <head type="subtitle">
+          Lettre première
+        </head>
+        <opener>
+
+          <address>
+            <addrLine>
+              <add type="hand"> à <persName>M. Berger</persName></add>
+            </addrLine>
+            <addrLine>à <placeName>Cirey</placeName></addrLine>
+          </address> le<date> 2
+          novembre 1736</date>
+        </opener>
+
+        <!-- L'usage constant de la balise <lb> : cette balise est généralement utilisée dans les
+        textes pour marquer les retours à la ligne qui ne sont pas causés par la fin d'un
+        paragraphe, mais plutôt par la mise en page originale du document.
+        Elle est
+          souvent
+        utilisée dans les documents numérisés où la mise en page originale a été
+          préservée,
+        afin de refléter l'apparence du document original.-->
+
+        <p>Je ne sai point, <persName ref="#M.Berger">Monsieur</persName>, partager les<lb />
+          profits d'une affaire dans laquelle je ne<lb /> mets pas de fonds, que je ne connais<lb />
+          &amp; que je ne veux connaître que pour<lb /> rendre service. J'ai déjà écrit à la per-<lb />
+          sonne en question pour vous faire avoir<lb /> l'intérêt que vous désirés. Je vous in-<lb />
+          struirai de la réponse aussitôt que je l'au-<lb /> rai reçue. L'intérêt ne m'a jamais
+          tenté<lb />
+        <pb n="2" /> &amp; je n'ai jamais eu sur cet article autre<lb /> chose à me
+          reprocher que d'avoir fait<lb /> plaisir &amp; d'avoir prodigué mon bien à des<lb /> amis
+          ingrats. L'<persName>abbé Makarti</persName> n'est pas<lb /> le dixieme qui m'ait marqué
+          de l'ingrati-<lb /> tude; mais c'est le seul qui ait été empa-<lb /> lé. Parmi les infames
+          calomnies dont j'ai<lb /> été accablé, l'accusation d'avoir eu part à<lb /> la publication
+          des <title>Lettres philosophiques</title><lb /> m'a été une des plus sensibles. On di-<lb />
+          sait que je les faisais vendre pour en re-<lb /> tirer de l'argent, tandis qu'en effet je
+          n'é-<lb /> pargnais ni soin ni argent pour les sup-<lb /> primer. Je suis bien-aise d'être
+          loin d'un<lb /> pays, où de si lâches calomnies ont été<lb /> ma seule récompense &amp; je
+          crois que je<lb /> n'y reviendrai de long-temps.</p>
+        <pb n="3" />
+        <p> Je vous remercie, <persName ref="#M.Berger">Monsieur</persName>, de l'a-<lb /> mitié que
+          vous voulés bien me conserver<lb /> &amp; des nouvelles que vous me mandés.<lb /> Si
+          j'avais fait quelque chose de nouveau<lb /> en <term type="genre">Poësie</term>, je me
+          ferais un plaisir de vous<lb /> l'envoyer; mais les choses, auxquelles je<lb /> m'occupe
+          présentement, sont d'une toute autre<lb /> nature. Je vous prie seulement,<lb /> à propos
+          de <term type="genre">Poésie</term> &amp; de calomnie, de<lb /> vouloir bien vous opposer
+          à l'injure que<lb /> l'on m'a faite de glisser le nom de <hi rendition="italic">
+            Crosat</hi><lb /> dans <title>l'Epitre à Emilie</title>. Je ne connais &amp;<lb /> n'ai
+          jamais vu ni <persName>M. Crosat</persName> l'aîné ni M.<lb /> son frere &amp; je ne vois
+          pas pourquoi on a<lb /> été fourer là leur nom, si ce n'est<lb /> pour me faire un ennemi
+          de plus; mais si ces<lb /> Messieurs sont sages, ils doivent faire com-<lb /> me moi qui
+          regarde avec un profond mé-<lb />
+        <pb n="4" /> pris toutes ces miseres. J'écrirai bientôt<lb />
+          à <persName>M. Sinetti</persName> &amp; je prierai <persName>M. Demoulin</persName><lb />
+          de faire un petit ballot de livres que je<lb /> veux lui envoyer. Je vous supplie, Mon-<lb />
+          sieur, d'être persuadé de mon amitié &amp;<lb /> de me conserver la vôtre. Permettez-moi<lb />
+          de vous prier d'assurer <persName>M. Bernard</persName> de<lb /> mon estime &amp; de mon
+          amitié.<lb /> J'ai l'honneur d'être, &amp;. </p>
+
+        <figure type="illustration">
+          <figDesc>Présence d'un petit décor simple, caractéristique des manuscrits imprimés du
+            XVIIIe
+            siècle.
+            Il indique la fin de la lettre première.</figDesc>
+        </figure>
+      </div>
+
+      <div type="letter" n='2'>
+        <head>LETTRE II</head>
+        <opener>
+          <address>
+            <addrLine>
+              <add type="hand"> à <persName>M. Berger</persName></add>
+            </addrLine>
+
+            <addrLine>à <placeName>
+                Cirey</placeName></addrLine>
+          </address> le<date> 12 janvier 1735</date>
+          <note
+            type="bibliography">
+            <bibl>
+              <idno type="volume">Tome 56</idno>
+              <idno type="page">Page 451</idno>
+            </bibl>
+          </note>
+
+        </opener>
+
+
+        <p>Vous ne sauriés croire, <persName ref="#M.Berger">Monsieur</persName>,<lb /> combien je
+          suis flatté de voir que vous<lb /> ne m'oubliés point au milieu des devoirs<lb /> &amp;
+          des occupations dont vous êtes surchar-<lb /> gé. Vous me faites voir par votre derniere
+          lettre que <persName>M. de la Clede</persName><lb /> est placé auprès de <persName>M. le
+          Maréchal de Coigny</persName>. Je<lb /> ne le savais pas. C'est sans doute <persName>M.<lb />
+          d'Argental</persName> qui lui aura procuré cette pla-<lb /> ce. Si cela est, voilà <persName>M.
+          d'Argental</persName> bien-<lb /> aise. C'est un nouveau service rendu de <pb n="6" /> sa
+          part. Il est né pour faire plaisir, com-<lb /> me <persName>Rameau</persName> est né pour
+          faire de bonne<lb /> musique. Il y aurait un homme qui se<lb /> tiendrait tout aussi
+          heureux que <persName>M. d'Ar-<lb /> gental</persName>, si certaine affaire que vous avés<lb />
+          désirée, pouvoit se conclurre; cet hom-<lb /> me est moi. J'ai récrit &amp; on m'a fait
+          en-<lb /> tendre que l'affaire alloit mal. Ayés la<lb /> bonté de m'instruire de l'état où
+          sont les<lb /> choses. Je vous demande comme la gra-<lb /> ce la plus flatteuse de me
+          procurer une<lb /> occasion de vous servir.<lb /></p>
+
+        <p>N'avés-vous point vu <persName>M.de Moncrif</persName>?<lb /> S'obstine-t-il à se tenir
+          solitaire, parce<lb /> qu'il n'est plus dans une Cour ? Eh! ne<lb /> peut-on pas vivre
+          heureux avec des<lb />
+        <pb n="7" /> hommes, quoiqu'on n'ait pas l'avantage<lb /> d'être
+          auprès des Princes?<lb /></p>
+
+        <p>J'ai lu <title>l'Histoire Japonoise</title>. Je ne sai<lb /> si je vous l'ai mandé. Je
+          souhaite que<lb />
+        <title>l'Histoire de Portugal</title> soit aussi amusante.<lb /></p>
+
+        <p>Voudriés-vous me faire l'amitié de<lb /> me mander quand on fera<ref
+            type="oraisonfunebre">l'oraison fu-<lb />nebre</ref> de <persName>M. le Maréchal de
+          Villars</persName>?<lb /> Celui qui est chargé de <ref type="éloge">l'éloge</ref> de <persName>M.
+          de<lb /> Barwick</persName>, est un homme de mérite, qui<lb /> me fait l'honneur d'être de
+          mes amis. Je ne sai qui fera le Flechier de notre der-<lb /> nier <persName>Turenne</persName>.
+          Le <persName>Pere Tournemine</persName><lb /> avoit entrepris se Discours; mais il a re-<lb />
+          mercié. N'est-ce point l'<persName>abbé Séguy</persName>qui <lb />
+        <pb n="8" /> lui a
+          succédé? Il est déja -connu par un<lb /> très-beau <term type="genre">panégyrique</term>
+          de <persName>St. Louis</persName>. Le<lb /> sujet de <persName>St. Louis</persName> était
+          épuisé, &amp; celui-<lb /> ci est tout neuf. Que ne dira-t-il pas<lb /> d'un homme qui à
+          quatre-vingt ans pren-<lb /> noit le <placeName>Milanais</placeName> &amp; entretenait des
+          filles.<lb /> Adieu, <persName ref="#M.Berger">Monsieur</persName>, vous savés combien<lb />
+          je vous suis attaché.</p>
+
+
+        <figure type="illustration">
+          <figDesc>Présence d'un petit décor simple, caractéristique des manuscrits imprimés du
+            XVIIIe
+            siècle.
+            Il indique la fin de la seconde lettre.</figDesc>
+        </figure>
+      </div>
+
+      <div type="lettre" n='3'>
+        <head>LETTRE III</head>
+        <opener>
+          <address>
+            <addrLine>
+              <add type="hand">à <persName>M. Berger</persName></add> à <placeName> Cirey</placeName></addrLine>
+          </address>
+          le <date>4 août 1735</date>
+                        <note
+            type="bibliography">
+            <bibl>
+              <idno type="volume">Tome 56</idno>
+              <idno type="page">Page 498</idno>
+            </bibl>
+          </note>
+        </opener>
+        <!-- <g>= lettrine -->
+        <p><g>V</g>ous me mandés, <persName ref="#M.Berger">Monsieur</persName>, que je<lb /> dois
+          vous tenir compte de votre silence;<lb /> c'est pourtant le plus grand dépit que vous
+          puissiés me faire.Vous savés com-<lb /> bien vos lettres me font de plaisir &amp; à<lb />
+          quel point votre commerce m'est pré-<lb /> cieux. N'attendés donc pas pour me<lb /> donner
+          de vos nouvelles que vous rece-<lb /> viés des vers de <placeName>Marseille</placeName>.
+          J'ai lu ceux<lb /> de <persName>M. Sinetti</persName>. Je savais bien qu'il était<lb />
+          tout aimable; mais je ne savais pas qu'il<lb />
+        <pb n="10" /> fut <ref type="profession">poëte</ref>.
+          Il y a en vérité de très<lb /> belles choses dans ce petit <term type="genre">poëme</term>.
+          J'y ai trou-<lb /> vé ce que j'aime, beaucoup d'images,<lb />
+        <foreign xml:lang="lat">
+            <hi rend="italic">ut pictura poësis</hi>
+          </foreign>. Il ne m'appartient pas<lb />
+          de donner des coups de pinceau à son<lb /> tableau. Il y a peut-être plusieurs en-<lb />
+          droits qui mériteraient d'être retouchés;<lb /> mais c'est toujours à la main du maître à<lb />
+          corriger son ouvrage. Je pourrais pren-<lb /> dre des libertés qu'il n'approuverait pas.<lb />
+          Il faut parler à un <ref type="profession">Auteur</ref> &amp; examiner a-<lb /> vec lui les
+          fautes dont on veut le faire<lb /> convenir. Il faut connaître sa docilité &amp;<lb /> ses
+          ressources. Je vois par la facilité qui<lb /> regne dans ses <term type="poeme">vers</term>,
+          qu'il les corrigerait<lb /> sans peine; mais pour cela il faut se voir<lb /> &amp; se
+          parler. Je lui soumettrais mes cri-<lb /> tiques, comme il a bien voulu me con-<lb />
+        <pb
+            n="11" /> fier son <term type="genre">poëme</term>; mais quelque chose que<lb /> je lui
+          proposasse sur son ouvrage, il ver-<lb /> rait en moi plus d'estime que de critique.<lb />
+          Dans l'impossibilité où nous sommes de<lb /> nous rencontrer, je ne peux à présent<lb />
+          que l'assurer du cas que je fais de son génie.<lb />
+        </p>
+
+        <p>J'ai vu le portrait qu'on a fait de moi.<lb /> Il n'est pas, je crois, ressemblant. J'ai<lb />
+          beaucoup plus de défauts qu'on ne m'en<lb /> reproche dans cet ouvrage &amp; je n'ai pas<lb />
+          les talens qu'on, m'y attribue;mais je<lb /> suis bien certain que je ne mérite point les
+          reproches d'insensibilité &amp; d'avarice<lb /> que l'on me fait. Mon amitié pour vous<lb />
+          me justifie de l'un, &amp; mon bien prodi-<lb /> gué à mes amis me met à couvert de<lb />
+        <pb
+            n="12" /> l'autre. Quiconque est tant soit peu hom-<lb /> me public, est sûr d'être
+          calomnié. C'est<lb /> un privilege dont je jouis depuis long-<lb /> tems. On m'a dit que
+          quelque bonne<lb /> ame avoit fait un portrait un peu moins<lb /> méchant; mais qu'on
+          s'est bien donné de<lb /> garde de le laisser imprimer. On a raison.<lb /> Les critiques
+          empêchent les gens de<lb /> broncher &amp; on se gâte par les louanges.<lb /> Aimés-moi
+          toujours. Ecrivés-moi sou-<lb /> vent &amp; soyez sûr que votre amitié me<lb /> console
+          bien de ces miseres. Si jamais je<lb /> vous suis bon à quelque chose, vous pou-<lb /> vés
+          compter sur moi.<lb />
+        </p>
+
+        <figure type="illustration">
+          <figDesc>Présence d'un petit décor simple, caractéristique des manuscrits imprimés du
+            XVIIIe
+            siècle.
+            Il indique la fin de la troisième lettre.</figDesc>
+        </figure>
+      </div>
+
+      <div type="letter" n='4'>
+        <head>LETTRE IV</head>
+        <opener>
+          <address>
+            <addrLine><add type="hand">à <persName>M. Berger</persName></add> à <placeName>
+                Cirey</placeName></addrLine></address> le <date>24 août 1735</date>
+          <note type="bibliography">
+            <bibl>
+              <idno type="volume">Tome 56</idno>
+              <idno type="page">Page 472</idno>
+            </bibl>
+          </note>
+        </opener>
+
+        <p> Vos lettres ajoutent un nouveau char-<lb /> me à la douceur dont je jouis dans la so-<lb />
+          litude, où je me suis retiré loin du mon-<lb /> de bruyant, méchant &amp; misérable. Loin<lb />
+          des mauvais <ref type="profession">poëtes</ref> &amp; des mauvais <ref type="profession">criti-ques</ref><lb />
+          j'aime mille fois mieux savoir par<lb /> vous des
+          nouvelles de tout ce qui se passe, que d'en être le témoin. Il y a une<lb /> infinité
+          d'événemens qui enuuient le Spec-<lb /> tateur &amp; qui deviennent intéressans, quand<lb />
+          ils sont bien contés. Vous m'embélissés <pb n="14" /> par vos lettres, les sottises de mon
+          siecle.<lb /> Je les lis à une personne respectable &amp;<lb /> bien aimable, dont le goût
+          est universel.<lb /> Vos lettres lui plaisent infiniment. Je suis<lb /> bien-aise de vous
+          faire cette petite trahi-<lb /> son, afin de vous engager à m'écrire plus<lb /> souvent.
+          S'il n'y avoit que moi qui lusse<lb /> vos lettres je vous prierois encore de<lb /> m'en
+          favoriser chaque jour par le seul in-<lb /> térêt de mon plaisir; mais puisqu'elles<lb />
+          font les délices d'une personne à qui tout<lb /> le monde voudroit plaire, c'est votre a-<lb />
+          mour propre qui y est intéressé à présent.<lb /></p>
+
+        <p>Mandés-moi donc si le grand <ref type="profession">musicien</ref><lb />
+        <persName>Rameau</persName>
+          est aussi <foreign xml:lang="lat">
+            <hi rend="italic">maximus in minimis</hi>
+          </foreign> &amp;<lb /> si de la
+          sublimité de sa grande musique il<lb /> descend avec succès aux graces naïves du<lb />
+        <pb
+            n="15" /> ballet. J'aime les gens qui savent quitter<lb /> le sublime pour badiner. Je
+          voudrais que<lb />
+        <persName>Newton</persName> eut fait des <term type="genre">Vaudevilles</term>;je
+          l'en<lb /> estimerais davantage. Celui qui n'a qu'un<lb /> talent, peut être un grand
+          génie; celui<lb /> qui en a plusieurs, est plus aimable. C'est<lb /> apparemment parce que
+          je suis le très-<lb /> humble serviteur de ceux qui touchent à<lb /> la fois aux deux
+          -extrémités, qu'on m'a<lb /> gravé à côté de <persName>M. de Fontenelle</persName>. Mon<lb />
+          ami <persName>Tiriot</persName> s'est fait peindre avec <title>la Hen-<lb /> riade</title>
+          à la main. Si j'ai une copie de ce<lb /> portrait, j'aurai ma maîtresse &amp; mon ami<lb />
+          dans un cadre. Mandés-moi si vous le voyés<lb /> quelquefois à l'opéra &amp; éguillon-<lb />
+          nés un peu la paresse qu'il a d'écrire.<lb /> Adieu, je vous embrasse tendrement.<lb />
+        </p>
+
+
+        <figure type="illustration">
+          <figDesc>Présence d'un petit décor simple, caractéristique des manuscrits imprimés du
+            XVIIIe
+            siècle.
+            Il indique la fin de la lettre IV.</figDesc>
+        </figure>
+      </div>
+
+      <div type="letter" n='5'>
+        <head>LETTRE V</head>
+        
+        <opener>
+          <address>
+            <addrLine><add type="hand">à <persName ref="#M.Berger">Au même</persName></add>
+          à <placeName>Cirey</placeName></addrLine></address> 
+          le <date>1er décembre 1735</date>
+                        <note
+            type="bibliography">
+          <bibl>
+            <idno type="volume">Tome 56</idno>
+            <idno type="page">Page 544</idno>
+          </bibl>
+          </note>
+        </opener>
+
+        <p><g>A</g>u nom de <persName>Rameau</persName> ma froide vei-<lb /> ne se réchauffe, <persName
+            ref="#M.Berger">Monsieur</persName>. Vous me di-<lb /> tes qu'il a besoin de quelque
+          guenille<lb /> pour faire exécuter des morceaux de mu-<lb /> sique chez <persName>Monseigneur
+          le Prince de Ca-<lb /> rignan</persName>. Voici de mauvais vers; mais<lb /> tels qu'il les
+          faut, je crois, pour faire<lb /> briller un <ref type="profession">musicien</ref>. S'il veut
+          broder de<lb /> son or cette étoffe grossiere, la voici.<lb />
+        </p>
+        <p>
+          <q type="poesie"> "Fille du Ciel, ô charmante harmonie,<lb /> Descendés, venés briller
+            dans nos concerts.<lb />
+        <pb n="17" /> La Nature imitée est par vous embellie.<lb />
+            Fille du ciel, reine de l'Italie,<lb /> Vous commandés à l'univers.<lb /> Brillés divine
+            harmonie,<lb /> C'est vous qui nous captivés.<lb /> Par vos chants vous-vous élevés<lb />
+            Dans le sein du Dieu du tonnere.<lb /> Vos trompettes &amp; vos tambours<lb /> Sont la
+            voix du Dieu de la guerre.<lb /> Vous soupirés dans les bras des amours<lb /> Le sommeil
+            caressé des mains de la nature<lb /> S'éveille à votre voix.<lb /> Le badinage avec
+            tendresse<lb /> Respire dans vos chants, folâtre sous vos doigts,<lb /> Quand le Dieu
+            terrible des armes<lb /> Dans le sein de Venus exhale ses soupirs,<lb /> Vos sons
+            harmonieux, vos sons remplis de charmes,<lb /> Redoublent leurs désirs.<lb /> Pouvoir
+            suprême,<lb /> L'amour lui-même<lb />
+        <pb n="18" /> Te doit des plaisirs.<lb /> Fille du
+            ciel, ô Charmante harmonie! &amp;c.<lb /> "</q>
+        </p>
+
+        <p>Il me semble qu'il y a là un Rinbom-<lb /> bo. de paroles &amp; une variété sur laquelle<lb />
+          tous les caracteres de la Musique peu-<lb /> vent s'exercer. Si <term type="cantate">
+          Orphée</term> <persName>Rameau</persName> veut<lb /> couvrir cette misere de doubles
+          croches, <foreign xml:lang="it">
+            <hi rend="italic">ella padrone</hi>
+          </foreign>, pourvu qu'on ne me nom-<lb />
+          me point.<lb />
+        </p>
+
+        <p> S'il avait demandé <persName>M. de Fontenelle</persName><lb /> ou quelque autre honnête
+          homme pour<lb /> examinateur, il aurait fait jouer <title>Samson</title><lb /> &amp; je
+          lui aurais fait tous les vers qu'il<lb /> aurait voulu. Peut-être en est-il temps<lb />
+          encore? Quand il voudra je fuis à son service.<lb /> Je n'ai fait <title>Samson</title>
+          que pour<lb /> lui. Je partageais le profit entre lui &amp;<lb />
+       <pb n="19" /> un pauvre
+          diable de bel esprit. Pour la<lb /> gloire, elle n'eut point été partagée; il l'aurait eue
+          toute entiere.<lb />
+        </p>
+
+        <p>Ecrivés-moi souvent : vos lettres va-<lb /> lent mieux que de l'argent &amp; de la gloi-<lb />
+          re. Vous êtes le plus aimable correspon-<lb /> dant du monde, bon. ami de près &amp; de<lb />
+          loin. Je vous embrasse &amp; suis à vous<lb /> pour la vie.<lb />
+        </p>
+
+        <p>
+          <add type="postscript">
+          P. S. Qu'est-ce qu'une estampe de
+          <lb />
+          moi, qui se vend chés Odievres? Voyés
+          <lb />
+          cela, je vous prie;j'en ferai venir
+          <lb />
+          pour le
+          <ref type="profession">Baillis du Village</ref></add>, au cas que cela soit
+          <lb />
+          ressemblant.
+        </p>
+        <p> Vous m'avés parlé d'une gravure où j'ai l'honneur d'être avec le berger,<lb />
+       <pb n="20" />
+          philosophe, le galant <persName>Fontenelle</persName>. J'ai-<lb /> merais mieux cette
+          gravure que l'estam-<lb /> pe. Etant derriere <persName>Fontenelle</persName>, on est<lb />
+          sûr d'être au moins regardé; mais étant<lb /> seul, on ne m'ira pas déterrer. <foreign xml:lang="lat">
+            <hi rend="italic">Vale</hi>
+          </foreign>.<lb />
+        </p>
+        
+        
+        <figure type="illustration">
+          <figDesc>Présence d'un petit décor simple, caractéristique des manuscrits imprimés du
+            XVIIIe
+            siècle.
+            Il indique la fin de la lettre V.</figDesc>
+        </figure>
+       </div>
+      
+      <div type="letter" n='6'>
+        <head>LETTRE VI</head>
+        <opener>
+          <address>
+            <addrLine><add type="hand">à <persName>M. Berger</persName></add>
+              <placeName>à Cirey</placeName> <date>le 22 décembre 1735</date></addrLine>
+        </address>
+         <note type="bibliography">
+          <bibl>
+            <idno type="volume">Tome 56</idno>
+            <idno type="page">Page 549</idno>
+          </bibl>
+          </note>
+        </opener>
+
+        <p>Vous êtes un <persName ref="#M.Berger">ami charmant</persName>. Vos let-<lb /> tres ne
+          font pas seulement des plaisirs<lb /> pour moi; elles sont des services solides.<lb /> Je
+          savais ce que vous me mandés de l'<persName>ab-<lb /> bé de la Marre</persName>. Vos
+          réflexions sont très<lb /> sages. Je ne peux que louer sa recon-<lb /> naissance &amp;
+          craindre la malignité du pu-<lb /> blic. J'ai retranché, comme vous croyés<lb /> bien,
+          toutes les louanges que l'amitié de<lb /> ce jeune homme, trompé en ma faveur<lb /> me
+          prodiguait assés imprudemment &amp;<lb />
+        <pb n="22" /> qui nous auraient fait tort à l'un
+          &amp; à l'au-<lb /> tre. Je l'ai prié de ne m'en donner au-<lb /> cune. A la bonne heure
+          si en faisant<lb /> imprimer une édition de <title>Jules-César</title>, il<lb /> réfute,
+          en passant, les calomnies dont<lb /> m'ont noirci ceux qui prennent la peine<lb /> de me
+          haïr. Je ne crois pas que ce soit<lb /> une chose que je puisse empêcher, s'il ne<lb /> se
+          tient qu'à des faits, s'il ne me loue<lb /> point, s'il ne se commet avec personne,<lb />
+          s'il parle simplement &amp; sans art. Mais<lb /> il faut que sa préface soit écrite avec
+          une<lb /> sagesse extrême &amp; que sa conduite y reponde.<lb />
+        </p>
+
+        <p>Je n'ai point gardé de copie de ces vers<lb /> pour <term type="cantate">Orphée</term> <persName>
+          Rameau</persName>; mais je me<lb /> souviens de l'idée, &amp; quand j'aurai plus<lb />
+        <pb
+            n="23" /> de santé &amp; de loisir, je ferai ce qu'il<lb /> voudra. Il a bien raison de
+          croire que<lb />
+        <title>Samson</title> est le chef-d'œuvre de sa musi-<lb /> que, &amp;
+          quand il voudra le donner, il me<lb /> trouvera toujours prêt à quitter tout,<lb /> pour
+          rimer ses doubles croches.<lb />
+        </p>
+
+        <p>Il est vrai, mon cher Monsieur, que<lb /> j'avais composé une <term type="theatre">
+          tragédie</term> dans laquel-<lb /> le j'avais essayé de faire un tableau des<lb /> moeurs
+          Européannes &amp; des mœurs Amé-<lb /> ricaines. Le contraste régnait dans toute<lb /> la
+          piece &amp; je l'aurais travaillé avec beau-<lb /> coup de soin mais j'avais peur d'y
+          avoir<lb /> mis plus de travail que de génie. Je crai-<lb /> gnais la haine opiniâtre de
+          mes ennemis<lb /> &amp; l'indisposition du public. Je me tenais<lb /> tranquille loin de
+          toute espece de <term type="genre">Théâ-<lb />
+        <pb n="24" /> tre</term>, attendant un temps
+          plus favorable;<lb /> mais une personne instruite du sujet de<lb /> ma piece (qui n'est
+          point <title>Montezume</title>) en<lb /> ayant parlé à <persName>M. le Franc</persName>,
+          il s'est hâté<lb /> de bâtir sur mon fonds &amp; je ne doute pas<lb /> qu'il n'eut mieux
+          réussi que moi. Il est<lb /> plus jeune &amp; plus heureux. Il est vrai<lb /> que si
+          j'avais eu un sujet à traiter, je ne<lb /> lui aurais pas pris le sien. J'aurais eu<lb />
+          pour lui cette déférence que la seule po-<lb /> litesse exige. Tout ce que je peux faire<lb />
+          à présent, c'est de lui aplaudir,si sa pie-<lb /> ce est bonne &amp; d'oublier son mauvais
+          pro-<lb /> cédé à proportion du plaisir que me fe-<lb /> ront ses vers, Je ne veux point
+          de guer-<lb /> re d'<term type="profession">auteurs</term>. Les Belles- Lettres de-<lb />
+          vraient lier les hommes; elles les rendent<lb /> d'ordinaire ennemis. Je ne veux point<lb />
+          ainsi<lb /> ainsi profaner la <term type="genre">Littérature</term> que je re-<lb /> garde
+          comme le plus bel apanage de l'hu-<lb /> manité.
+        </p>
+        <closer> Adieu, <persName ref="#M.Berger">Monsieur</persName>. Je suis bien<lb /> touché des
+          marques que vous me donnés<lb /> de votre amitié &amp; c'est pour ma vie.<lb />
+        </closer>
+
+
+        <figure type="illustration">
+          <figDesc>Présence d'un petit décor simple, caractéristique des manuscrits imprimés du
+            XVIIIe
+            siècle.
+            Il indique la fin de la lettre VI.</figDesc>
+        </figure>
+      </div>
+     </body>
+  </text>
+</TEI>
